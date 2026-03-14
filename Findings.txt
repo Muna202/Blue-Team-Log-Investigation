@@ -1,0 +1,16 @@
+INDICATORS OBSERVED
+
+Multiple ailed login attempts detected in linux authentication logs.
+
+Username:fakeuser
+Source IP: 35.235.242.0
+Event: Failed password authentication
+
+ANALYSIS
+Repeated authentication failures may indicate brute force login attempts or unauthorized access attempts.
+
+RECOMMENDED ACTIONS
+Investigate repeated failed login sources
+Implement account lockout policies
+Monitor authentication logs 
+
